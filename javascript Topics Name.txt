@@ -1,0 +1,30 @@
+*) typeOf oprand
+*) Array.isArray([array])
+
+*) primitives  
+*) Nonprimitives  
+*) template literal
+*) new  ---
+*) regex --- typeof /regex/ === "object"; ---
+*) SYMBBOL  ---
+
+*) array.slice()
+*) arr.splice()
+*) new Date()
+*) arr.find() ---
+*) arr.filter() ---
+*) arr.map() ---
+*) split("") ---
+*) reverse() ---
+*) join("")  ---
+*) Math.ceil()
+*) math.floor()
+
+
+:::::::::::::::::::::    Notes     ::::::::::::
+
+primitive ::::::
+ STRING, NUMBER, BOOLEAN, SYMBBOL, UNDEFIEND, NULL
+
+non-primitive :::::
+ ARRAY, OBJECT, FUNCTION Date
