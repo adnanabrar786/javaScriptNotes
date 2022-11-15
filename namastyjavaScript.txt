@@ -1,0 +1,132 @@
+https://www.youtube.com/c/akshaymarch7
+
+
+javaScript is a Synchronous Single-threated language
+but what is ajax it cover later
+
+Global Exceution Context :
+1) Memory 
+2) Code
+
+     
+function invoke   ----->  fn(n)
+round bracket means paranthesis
+
+
+parameter ---->  in function
+argument    ---->  in function
+return --->  if inside in return function all work done in function just excute the whole function where function invoke
+
+
+call stack ---> GEC (Global Excecution Context)
+call stack is Known as Execution Context Stack , Program Stack , Control Stack , Runtime Stack , Machine Stack
+
+
+hoisting in function (like arrow finction and simple function)
+hoisting in variable 
+defined and not defined
+demo in call stack
+
+
+function invocation and variable environment
+ console.log()   --> fetch data in local memeory in Excecution Context
+ GEC have Own Memory , Virtual functionality
+
+
+video name ::::::::::::::: How functions work in JS
+*) GEC have own memory and function have own memeory and all the of them are independent are each other
+
+
+video name ::::::::::::::: SHORTEST JS Program window & this keyword | Namaste JavaScript Ep. 5
+*) window >> window is a global object which is created along with GEC
+*) whenever you created a GEC A "this" keyword is created along with it enven for the functinal excecution context  and even for the GEC
+
+
+video name ::::::::::::::: undefined vs not defined in JS 🤔 | Namaste JavaScript Ep. 6
+*) javaScript is loosely type language not strick type (Example >> we cannot restrict in datatype like deciaml , boolean etc)
+
+
+video name :::::::::::::::  The Scope Chain, 🔥Scope & Lexical Environment | Namaste JavaScript Ep. 7 
+ LEXICAL ENVIRONMENT >>>>>>>>>
+*) whenever Execution Context is created a lexical environment is also created
+*) lexical Environment is the local memory along with the lexical environment of his Parent(child say parent k data ko access kar sakty hy this is called Lexical Environment)
+*) way of finding in lexcial environment is known as scope Change (jo tariqa hy value dhondhnay ka lexical mai is ko scope Change kehty hy )
+
+
+video name :::::::::::::::   let & const in JS 🔥Temporal Dead Zone | | Namaste JavaScript Ep. 8
+*) Temporal Dead Zone ?
+Ans)  Temporal dead zone is a time when let vaiable is hoisted and till is initialize some value the time between that is known as temporal dead zone
+  Example::::
+   let a = 10 ; (is k uper ka sara code Temporal dead zone hy let "a" k leye )
+*) let and const declarations hoisted in javaScript ?
+>>>const >>>>>>>>>>
+         it should be initialize and declear together (if we donot do this it should be type Error because type is constant)
+*) Differnece between Syntax Error / Reference Error / Type Error ?
+>>>Reference Error >>>>>>>>>>>>>
+   which is not find  a value in program is called  Reference Error.
+>>>Syntax Error >>>>>>>>>>>>>>>>
+  Example::
+  1) redeclaer the let
+  2) const is define but not declear 
+>>>Type Error >>>>>>>>>>>>>>>>>>
+  const should be initialize and declear together (if we donot do this it should be type Error because const type is constant).
+
+
+video name ::::::::::::::: BLOCK SCOPE & Shadowing in JS 🔥| Namaste JavaScript 🙏 Ep. 9 
+Q) what is Block Scoped in JS ?
+ANS) let and const are Block Scoped in JS .
+Q) what is Block in JS ?
+ANS) Block is a space where let and const variable Exists.
+*) Block is also known as Compand Statement
+*) it is a mutiple Statement group in one statement and use it where javascript Expect One Statement in JavaScript
+*) Three Space in Memory in Spaces 
+ 1)Global Scope   (2)script Scope  (3)Block Scope
+*) "Shadowing in JS"
+ Same VAriable in Global Scope and Block Scope
+*)BLOCK SCOPE  is also follow LExical Envirnment (see above)
+
+
+video name ::::::::::::::: Closures in JS 🔥 | Namaste JavaScript Episode 10
+Q) Closures ?
+     Closures is a function bind together with its Lexical Environment 
+     and Function around its Lexical Scope
+*) funnction store in variable
+*) function return another function
+*) you can pass a function inside a function as a parameter 
+*) when function retuen function and store in variable but function maintain as lexical scope
+::: Example  start :::
+ function a() {
+    var b = 10;
+    function c(){
+        console.log(b);
+     }
+     return c; 
+ }
+ let z = a(); 
+ z();
+ console.log(z);
+::: Example  end :::
+*) Uses of Closures
+1)Module Design Pattern
+2)Currying
+3)Functions Like once
+4)momoize
+5)maintaining state in async world
+6)setTimeouts
+7)Iterators
+and manymore...
+
+
+video name :::::::::::::::  setTimeout + Closures Interview Question 🔥 | Namaste 🙏 JavaScript Ep. 11
+*)setTimeout  is asynchronous
+
+
+
+
+Remainin Topis ::::::::::::::::::::::::
+Iterators  , Currying , momoize
+by pass reference
+by pass by value
+pointer in javaScript
+
+

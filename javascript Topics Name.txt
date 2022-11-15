@@ -19,6 +19,15 @@
 *) join("")  ---
 *) Math.ceil()
 *) math.floor()
+*) query selector
+
+
+Remainin Topis ::::::::::::::::::::::::
+Iterators  , Currying , momoize  ---
+by pass reference
+by pass by value
+pointer in javaScript
+
 
 
 :::::::::::::::::::::    Notes     ::::::::::::
