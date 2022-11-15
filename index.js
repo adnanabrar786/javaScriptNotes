@@ -35,7 +35,7 @@ const array = [1, 6, 9, 16];
 const map = array.map((x) => x * 2);
 // array.map(callbackFunction);
 
-console.log(map);
+// console.log(map);
 
 // Result :::
 // array.map is  like a loop
@@ -53,8 +53,43 @@ const words = [
 
 const resultfilter = words.filter((word) => word.length < 6);
 
-console.log(resultfilter);
+// console.log(resultfilter);
 
 // Result :::
-//  array.filter is  like a loop
 // *) Return New Array
+
+//   ::::::::::::::::  Topic Name : array.find ::::::::::::::::
+
+//  :::::  Example 1 :::::::::::
+// const array1 = [5, 9, 8, 130, 44];
+// const found = array1.find(element => element > 10);
+// console.log(found);
+
+// :::::   Example 2 :::::::::
+const inventoryOne = [
+  { name: "apples", quantity: 2 },
+  { name: "cherries", quantity: 8 },
+  { name: "bananas", quantity: 0 },
+  { name: "cherries", quantity: 5 },
+  { name: "cherries", quantity: 15 }
+];
+
+const result = inventoryOne.find(({name}) => name === "cherries");
+// console.log(result);
+
+// :::::   Example 3  :::::::::
+const inventory = [
+  { name: "apples", quantity: 2 },
+  { name: "bananas", quantity: 0 },
+  { name: "cherries", quantity: 5 },
+];
+
+const resultthird = inventory.find((fruit) => {
+  return fruit.name === "cherries";
+});
+// console.log(resultthird);
+
+// Result :::
+// *) Return a specific value
+// *) not return array
+

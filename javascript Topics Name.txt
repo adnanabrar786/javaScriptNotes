@@ -1,4 +1,4 @@
-*) typeOf oprand
+*) typeOf 
 *) Array.isArray([array])
 
 *) primitives  
@@ -7,11 +7,12 @@
 *) new  ---
 *) regex --- typeof /regex/ === "object"; ---
 *) SYMBBOL  ---
+*) return ---
 
 *) array.slice()
 *) arr.splice()
-*) arr.find() ---
-*) arr.filter() ---
+*) arr.find() 
+*) arr.filter() 
 *) arr.map() 
 *) split("") ---
 *) reverse() ---
@@ -35,7 +36,7 @@ query selector
 :::::::::::::::::::::    Notes     ::::::::::::
 
 primitive ::::::
- STRING, NUMBER, BOOLEAN, SYMBBOL, UNDEFIEND, NULL
+  STRING, NUMBER, BOOLEAN, SYMBBOL, UNDEFIEND, NULL
 
 non-primitive :::::
- ARRAY, OBJECT, FUNCTION Date
+  ARRAY, OBJECT, FUNCTION Date
