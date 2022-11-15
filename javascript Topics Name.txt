@@ -8,23 +8,30 @@
 *) regex --- typeof /regex/ === "object"; ---
 *) SYMBBOL  ---
 *) return ---
+*) Destructing object, array ---
 
 *) array.slice()
-*) arr.splice()
-*) arr.find() 
-*) arr.filter() 
-*) arr.map() 
-*) split("") ---
-*) reverse() ---
-*) join("")  ---
-*) new Date()
-*) Math.sqrt ---
+*) array.splice()
+*) array.map() 
+*) array.filter()
+*) array.find()  
 *) Math.ceil()
 *) math.floor()
+*) array.reverse() ---
+*) array.join() ---
+*) string.split(" ") ---
+*) array.shift ---
+*) array.unshift ---
+*) array.pop() ---
+*) array.push() ---
+*) array..reduce() ---
+*) indexOf() ---
+*) Math.sqrt ---
+*) new Date()
 
 
 
-Remainin Topis ::::::::::::::::::::::::
+:::::::::::::   Remainin Topis ::::::::::::::::::::::::
 Iterators  , Currying , momoize  ---
 by pass reference
 by pass by value
@@ -32,9 +39,7 @@ pointer in javaScript
 query selector
 
 
-
 :::::::::::::::::::::    Notes     ::::::::::::
-
 primitive ::::::
   STRING, NUMBER, BOOLEAN, SYMBBOL, UNDEFIEND, NULL
 
