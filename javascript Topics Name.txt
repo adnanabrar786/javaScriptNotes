@@ -10,16 +10,17 @@
 
 *) array.slice()
 *) arr.splice()
-*) new Date()
 *) arr.find() ---
 *) arr.filter() ---
-*) arr.map() ---
+*) arr.map() 
 *) split("") ---
 *) reverse() ---
 *) join("")  ---
+*) new Date()
+*) Math.sqrt ---
 *) Math.ceil()
 *) math.floor()
-*) query selector
+
 
 
 Remainin Topis ::::::::::::::::::::::::
@@ -27,6 +28,7 @@ Iterators  , Currying , momoize  ---
 by pass reference
 by pass by value
 pointer in javaScript
+query selector
 
 
 
