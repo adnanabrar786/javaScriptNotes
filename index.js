@@ -64,10 +64,10 @@ const inventoryOne = [
   { name: "cherries", quantity: 8 },
   { name: "bananas", quantity: 0 },
   { name: "cherries", quantity: 5 },
-  { name: "cherries", quantity: 15 }
+  { name: "cherries", quantity: 15 },
 ];
 
-const result = inventoryOne.find(({name}) => name === "cherries");
+const result = inventoryOne.find(({ name }) => name === "cherries");
 // console.log(result);
 
 // :::::   Example 3  :::::::::
@@ -86,6 +86,61 @@ const resultthird = inventory.find((fruit) => {
 // *) Return a specific value
 // *) not return array
 
+//   ::::::::::::::::  Topic Name : array.join ::::::::::::::::
+
+// const str = "this is a test string";
+const arrayJoin = [
+  "spray",
+  "limit",
+  "elite",
+  "exuberant",
+  "destruction",
+  "present",
+];
+
+// console.log(arrayJoin.join());
+// console.log(arrayJoin.join(" "));
+// console.log(arrayJoin.join("-"));
+// console.log( typeof  arrayJoin.join(" "));
+
+// Result :::
+// *) apply in array
+// *) it convert array into string
+// *) not apply in sting
+
+//   ::::::::::::::::  Topic Name : array.reverse ::::::::::::::::
+var myArrReverse = [34, 234, 567, 4];
+var reverseArr = myArrReverse.reverse();
+// console.log(reverseArr);
+
+// Result :::
+// *) Return reverse array
+// *) apply in array
+// *) not apply in string
+
+//   ::::::::::::::::  Topic Name : str.split ::::::::::::::::
+const strSplit = "adnan is best";
+const arr = strSplit.split(" ");
+// console.log(arr);
+
+// Result :::
+// *) apply in string
+// *) it convert string into array
+// *) not apply in array
+
+// ::::::::::: (combine above three Topics ) Topic Name : array.join, array.reverse, str.split ::::::::::::::::
+
+const stringTitle = "this is a test string";
+const reverseStr = stringTitle.split(" ").reverse().join("");
+// console.log(reverseStr);
+
+const strTwo = "Adnan is";
+const resultSplit = strTwo.split(" ");
+// console.log(resultSplit);
+const resultReverse = resultSplit.reverse();
+// console.log(resultReverse);
+const resultJoin = resultReverse.join("");
+// console.log(resultJoin);
 
 //   ::::::::::::::::  Topic Name : Math.ceil and  Math.floor ::::::::::::::::
 let myNumber = 22.22;
@@ -94,36 +149,36 @@ let resultFloor = Math.floor(myNumber);
 // console.log(resultCeil);
 // console.log(resultFloor);
 
+//  :::::::::::::::  inverse string (Two Method) start ::::::::::::::::::
+// let str = "hello"
 
-//   ::::::::::::::::  Topic Name : arr.reverse ::::::::::::::::
-// var myarr = [34, 234, 567, 4];
-// var  reverseArr = myarr.reverse();
-// console.log(reverseArr);
+// Method One
+// console.log(str.split("").reverse("").join(""));
 
-// Result :::
-// *) Return reverse array
-// *) apply in array
-// *) not apply in string
+//  Method Two
+// let str = "hello"
+// const myfunc = (val) => {
+//   let newStr = "" ;
+//   for (let i =  val.length - 1 ; i >= 0 ; i-- ){
+//      newStr = newStr += val[i]
+//   }
+//   return newStr;
+// }
+
+// console.log(myfunc(str));
+
+//  :::::::::::::::  inverse string (Two Method)  end::::::::::::::::::
+
+//  ::::::::::::::: extra praactice ::::::::::::::::::
+
+// const obj = {
+//   firstName: "Adnan",
+//   lastName: "Abrar",
+//   getFullName() {
+//     return this.firstName + this.lastName;
+//   },
+// };
+
+// console.log(obj.getFullName());
 
 
-
-
-continue this Look    ......................................
-
-//   ::::::::::::::::  Topic Name : str.split ::::::::::::::::
-// const str = "adnan is best";
-// const arr = str.split(" ");
-// const a = arr.reverse();
-// console.log(a);
-
-// Result :::
-// *) Return reverse array
-// *) apply in string
-// *) it convert string into array
-//  by given condtion
-// *) not apply in array
-
-
-const str = "this is a test string";
-const reverseStr = str.split(" ").reverse().join("");
-console.log(reverseStr);

@@ -1,47 +1,104 @@
+:::::::::::::   Basic Topics ::::::::::::::::::::::::
+*) Variables
+*) forloop
+*) FUNCTION
+*) arrow FUNCTION
+*) if else
+*) ternary operator
+*) async await
+*) callbackfunction
+*) .then(callbackfunction)  .catch(callbackfunction)
+*) return
+*) Variables Scope
+
+
+:::::::::::::   Theory Topics ::::::::::::::::::::::::
 *) typeOf 
 *) Array.isArray([array])
 
 *) primitives  
-*) Nonprimitives  
+*) Nonprimitives
+
 *) template literal
+
+*) pure FUNCTION
+*) impure FUNCTION
+
 *) new  ---
 *) regex --- typeof /regex/ === "object"; ---
 *) SYMBBOL  ---
 *) return ---
+*) recursion ---
 *) Destructing object, array ---
+*) OOPs ---
+*) Operators
+i) Arithmetic Operators
+ii) Assignment Operators 
+iii) Comparison Operators
+iv) Logical Operators 
+v) Conditional Operators
+vi) Type Operators (Example :typeof)
 
+:::::::::::::::::::::   Theory Topics  Notes     :::::::::::::::::
+*) primitive ::::::
+  STRING, NUMBER, BOOLEAN, SYMBBOL, UNDEFIEND, NULL
+
+*) non-primitive :::::
+  ARRAY, OBJECT, FUNCTION Date
+
+*) callbackfunction:::::
+     callbackfunction is passed as an argument to another function which is invoke inside a function
+
+*) Pure FUNCTION:::::
+  >>> for optimize code 
+  >>> Easy to understand by compiler and developer also
+
+*) impure FUNCTION:::::
+  >>> its access globally its a bad thing for function
+
+
+:::::::::::::   javaScript buildIn function Topics ::::::::::::::::::::::::
 *) array.slice()
 *) array.splice()
 *) array.map() 
 *) array.filter()
 *) array.find()  
+*) array.join() 
+*) array.reverse() 
+*) string.split(" ") 
+*) combine array.join(), array.reverse(), string.split(" ") 
 *) Math.ceil()
-*) math.floor()
-*) array.reverse() ---
-*) array.join() ---
-*) string.split(" ") ---
+*) Math.random() 
+*) Math.ceil(1.2);
+*) Math.floor(5.95)
+
 *) array.shift ---
 *) array.unshift ---
 *) array.pop() ---
 *) array.push() ---
 *) array..reduce() ---
 *) indexOf() ---
+*) lastIndexOf() ---
 *) Math.sqrt ---
+*) substr() ---
+*) charAt() ---
+*) constructor ---
+*) classes ---
 *) new Date()
+*) Constructor
 
 
-
-:::::::::::::   Remainin Topis ::::::::::::::::::::::::
+:::::::::::::   Remainin Topics ::::::::::::::::::::::::
 Iterators  , Currying , momoize  ---
-by pass reference
-by pass by value
+pass by reference
+pass by value
 pointer in javaScript
 query selector
 
 
-:::::::::::::::::::::    Notes     ::::::::::::
-primitive ::::::
-  STRING, NUMBER, BOOLEAN, SYMBBOL, UNDEFIEND, NULL
 
-non-primitive :::::
-  ARRAY, OBJECT, FUNCTION Date
+
+
+::::::::  extra Knowledge :::::::::
+data structure ::: 
+linklist
