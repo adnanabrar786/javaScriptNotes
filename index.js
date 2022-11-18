@@ -149,36 +149,63 @@ let resultFloor = Math.floor(myNumber);
 // console.log(resultCeil);
 // console.log(resultFloor);
 
-//  :::::::::::::::  inverse string (Two Method) start ::::::::::::::::::
-// let str = "hello"
+//   ::::::::::::::::  Topic Name : constructor ::::::::::::::::
+function MyConstructor(name, age, myClass, subject) {
+  this.name = name;
+  this.age = age;
+  this.myClass = myClass;
+  this.subject = subject;
+}
 
-// Method One
-// console.log(str.split("").reverse("").join(""));
+const resultMyConstructor = new MyConstructor("adnan", 25, "Graduation", "Cs");
+// console.log(resultMyConstructor);
+// console.log("class >>>>", resultMyConstructor.myClass);
 
-//  Method Two
-// let str = "hello"
-// const myfunc = (val) => {
-//   let newStr = "" ;
-//   for (let i =  val.length - 1 ; i >= 0 ; i-- ){
-//      newStr = newStr += val[i]
-//   }
-//   return newStr;
-// }
+// Result :::
+// *) first alphabet in Construction function is Capital
+// *) it gives object
 
-// console.log(myfunc(str));
+//   ::::::::::::::::  Topic Name : classes ::::::::::::::::
+class classMates {
+  constructor(firstName, lastName, semester) {
+    this.firstName = firstName;
+    this.lastName = lastName;
+    this.semester = semester;
+  }
+};
 
-//  :::::::::::::::  inverse string (Two Method)  end::::::::::::::::::
+let resultClassMates =  new classMates("ali","ahmed" , 2);
 
-//  ::::::::::::::: extra praactice ::::::::::::::::::
-
-// const obj = {
-//   firstName: "Adnan",
-//   lastName: "Abrar",
-//   getFullName() {
-//     return this.firstName + this.lastName;
-//   },
-// };
-
-// console.log(obj.getFullName());
+// console.log(resultClassMates);
 
 
+// Result :::
+// *) it start with class 
+// *) it gives object
+
+
+//   ::::::::::::::::  Topic Name : classes with super keys ::::::::::::::::
+
+class Parentclass {Parentclass
+  constructor(firstName, lastName, semester) {
+    this.firstName = firstName;
+    this.lastName = lastName;
+    this.semester = semester;
+  }
+}
+
+class Chilclass extends Parentclass {
+  constructor(firstName, lastName) {
+    super(firstName, lastName);
+  }
+  getFullNAme() {
+    return this.firstName + " " + this.lastName;
+  }
+}
+
+// const myResult = new Chilclass("adnan", "abrar");
+// console.log(myResult.getFullNAme());
+
+
+// Result :::
+// *) super keyword define in child class and fetch value in parent class

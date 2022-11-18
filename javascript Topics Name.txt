@@ -19,18 +19,12 @@
 *) primitives  
 *) Nonprimitives
 
-*) template literal
-
 *) pure FUNCTION
 *) impure FUNCTION
 
-*) new  ---
-*) regex --- typeof /regex/ === "object"; ---
-*) SYMBBOL  ---
-*) return ---
-*) recursion ---
-*) Destructing object, array ---
-*) OOPs ---
+*) return Keyword
+*) template literal
+
 *) Operators
 i) Arithmetic Operators
 ii) Assignment Operators 
@@ -38,6 +32,16 @@ iii) Comparison Operators
 iv) Logical Operators 
 v) Conditional Operators
 vi) Type Operators (Example :typeof)
+
+*) new  ---
+*) regex --- typeof /regex/ === "object"; ---
+*) SYMBBOL  ---
+
+*) recursion ---
+*) Destructing object, array ---
+*) OOPs ---
+
+
 
 :::::::::::::::::::::   Theory Topics  Notes     :::::::::::::::::
 *) primitive ::::::
@@ -56,6 +60,13 @@ vi) Type Operators (Example :typeof)
 *) impure FUNCTION:::::
   >>> its access globally its a bad thing for function
 
+*) return Keyword
+  Functions return (pass back) values using the return keyword.
+  return ends function execution and returns the specified value
+  to the location where it was called. 
+  A common mistake is to forget the return keyword,
+  in which case the function will return undefined by defaul
+
 
 :::::::::::::   javaScript buildIn function Topics ::::::::::::::::::::::::
 *) array.slice()
@@ -66,26 +77,26 @@ vi) Type Operators (Example :typeof)
 *) array.join() 
 *) array.reverse() 
 *) string.split(" ") 
-*) combine array.join(), array.reverse(), string.split(" ") 
 *) Math.ceil()
 *) Math.random() 
 *) Math.ceil(1.2);
 *) Math.floor(5.95)
+*) constructor
+*) classes 
+*) classes with super keys
 
+
+*) array..reduce() ---
+*) indexOf() ---
+*) lastIndexOf() ---
 *) array.shift ---
 *) array.unshift ---
 *) array.pop() ---
 *) array.push() ---
-*) array..reduce() ---
-*) indexOf() ---
-*) lastIndexOf() ---
 *) Math.sqrt ---
 *) substr() ---
 *) charAt() ---
-*) constructor ---
-*) classes ---
 *) new Date()
-*) Constructor
 
 
 :::::::::::::   Remainin Topics ::::::::::::::::::::::::
@@ -102,3 +113,4 @@ query selector
 ::::::::  extra Knowledge :::::::::
 data structure ::: 
 linklist
+
