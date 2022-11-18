@@ -1,21 +1,22 @@
 //  :::::::::::::::Daily praactice ::::::::::::::::::
-//  *) get a  name in object by using function
-//  *) inverse string (Two Method) start  (combine array.join(), array.reverse(), string.split(" ") )
+//  1) get a  name in object by using function
+//  2) inverse string (Two Method) start  (combine array.join(), array.reverse(), string.split(" ") )
+//  3)Find how many Numbers in array
 
 //  :::::::::::::::  praactice ::::::::::::::::::
 
-// get a  name in object by using function
-const obj = {
-  firstName: "Adnan",
-  lastName: "Abrar",
-  getFullName() {
-    return this.firstName + this.lastName;
-  },
-};
+// 1)  :::::::::::::::::: get a  name in object by using function ::::::::::::::::::
+// const obj = {
+//   firstName: "Adnan",
+//   lastName: "Abrar",
+//   getFullName() {
+//     return this.firstName + this.lastName;
+//   },
+// };
 
 console.log(obj.getFullName());
 
-//  :::::::::::::::  inverse string (Two Method) start ::::::::::::::::::
+// 2)  :::::::::::::::  inverse string (Two Method) start ::::::::::::::::::
 // let str = "hello"
 
 // Method One
@@ -33,7 +34,27 @@ console.log(obj.getFullName());
 
 // console.log(myfunc(str));
 
-//  :::::::::::::::  inverse string (Two Method)  end::::::::::::::::::
+// 3)  ::::::::::::::: Find how many Numbers in array ::::::::::::::::::
+
+const myArr = [1, 2, 3, " adnan", 5];
+
+function myFunc() {
+  for (i = 0; i <= myArr.length - 1; i++) {
+    if (typeof myArr[i] === "number") {
+      console.log("");
+      // console.log(i);
+    }
+  }
+}
+
+// myFunc();
+
+
+
+
+
+
+
 
 
 

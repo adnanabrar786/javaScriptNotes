@@ -42,7 +42,6 @@ vi) Type Operators (Example :typeof)
 *) OOPs ---
 
 
-
 :::::::::::::::::::::   Theory Topics  Notes     :::::::::::::::::
 *) primitive ::::::
   STRING, NUMBER, BOOLEAN, SYMBBOL, UNDEFIEND, NULL
@@ -87,6 +86,7 @@ vi) Type Operators (Example :typeof)
 
 
 *) array..reduce() ---
+*) array.some() ---
 *) indexOf() ---
 *) lastIndexOf() ---
 *) array.shift ---

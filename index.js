@@ -172,21 +172,20 @@ class classMates {
     this.lastName = lastName;
     this.semester = semester;
   }
-};
+}
 
-let resultClassMates =  new classMates("ali","ahmed" , 2);
+let resultClassMates = new classMates("ali", "ahmed", 2);
 
 // console.log(resultClassMates);
 
-
 // Result :::
-// *) it start with class 
+// *) it start with class
 // *) it gives object
-
 
 //   ::::::::::::::::  Topic Name : classes with super keys ::::::::::::::::
 
-class Parentclass {Parentclass
+class Parentclass {
+  Parentclass;
   constructor(firstName, lastName, semester) {
     this.firstName = firstName;
     this.lastName = lastName;
@@ -206,6 +205,7 @@ class Chilclass extends Parentclass {
 // const myResult = new Chilclass("adnan", "abrar");
 // console.log(myResult.getFullNAme());
 
-
 // Result :::
 // *) super keyword define in child class and fetch value in parent class
+
+
