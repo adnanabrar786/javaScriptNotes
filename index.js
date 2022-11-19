@@ -202,6 +202,27 @@ class Chilclass extends Parentclass {
   }
 }
 
+
+// //   ::::::::::::::::  Topic Name : array..reduce() ::::::::::::::::
+
+
+// const S = "PeteR";
+// // S = [ "P" , "e" ,"t" ,"e" ,"R"]
+// // acc means previous value
+// // char means current value
+// const Myfunc = (str) =>
+//   str
+//     .split("")
+//     .reduce(
+//       (acc, char) =>
+//         (acc +=
+//           char === char.toLowerCase()
+//             ? char.toUpperCase()
+//             : char.toLowerCase())
+//     );
+
+// console.log(Myfunc(S));
+
 // const myResult = new Chilclass("adnan", "abrar");
 // console.log(myResult.getFullNAme());
 
