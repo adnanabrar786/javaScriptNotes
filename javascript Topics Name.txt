@@ -17,9 +17,6 @@
 
 
 :::::::::::::   Theory Topics ::::::::::::::::::::::::
-*) typeOf 
-*) Array.isArray([array])
-
 *) primitives  
 *) Nonprimitives
 
@@ -72,6 +69,8 @@ vi) Type Operators (Example :typeof)
 
 
 :::::::::::::   javaScript buildIn function Topics ::::::::::::::::::::::::
+*) typeOf 
+*) Array.isArray([array])
 *) array.slice()
 *) array.splice()
 *) array.map() 
