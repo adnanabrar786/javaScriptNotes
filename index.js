@@ -253,10 +253,10 @@ const prompFunc = (completed) => {
   });
 };
 
-prompFunc(false)
-  .then((result) => {
-    console.log(result);
-  })
-  .catch((error) => {
-    console.log(error);
-  });
+// prompFunc(false)
+//   .then((result) => {
+//     console.log(result);
+//   })
+//   .catch((error) => {
+//     console.log(error);
+//   });

@@ -13,6 +13,7 @@
 *) try catch
 *) then catch 
 *) async await
+*) settimeout
 
 
 :::::::::::::   Theory Topics ::::::::::::::::::::::::
@@ -79,17 +80,16 @@ vi) Type Operators (Example :typeof)
 *) array.join() 
 *) array.reverse() 
 *) string.split(" ") 
-*) Math.ceil()
 *) Math.random() 
 *) Math.ceil(1.2);
 *) Math.floor(5.95)
 *) constructor
 *) classes 
 *) classes with super keys
+*) array..reduce()
 *) Promise
 
 
-*) array..reduce() ---
 *) array.some() ---
 *) indexOf() ---
 *) lastIndexOf() ---
