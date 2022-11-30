@@ -201,32 +201,62 @@ class Chilclass extends Parentclass {
     return this.firstName + " " + this.lastName;
   }
 }
-
-
-// //   ::::::::::::::::  Topic Name : array..reduce() ::::::::::::::::
-
-
-// const S = "PeteR";
-// // S = [ "P" , "e" ,"t" ,"e" ,"R"]
-// // acc means previous value
-// // char means current value
-// const Myfunc = (str) =>
-//   str
-//     .split("")
-//     .reduce(
-//       (acc, char) =>
-//         (acc +=
-//           char === char.toLowerCase()
-//             ? char.toUpperCase()
-//             : char.toLowerCase())
-//     );
-
-// console.log(Myfunc(S));
-
 // const myResult = new Chilclass("adnan", "abrar");
 // console.log(myResult.getFullNAme());
 
 // Result :::
 // *) super keyword define in child class and fetch value in parent class
 
+//   ::::::::::::::::  Topic Name : array..reduce() ::::::::::::::::
 
+// Example ::: 01
+const S = "PeteR";
+const Myfunc = (str) =>
+  str
+    .split("")
+    // S = [ "P" , "e" ,"t" ,"e" ,"R"]
+    .reduce(
+      // acc means previous value
+      // char means current value
+      (acc, char) =>
+        (acc +=
+          char === char.toLowerCase() ? char.toUpperCase() : char.toLowerCase())
+    );
+
+// console.log(Myfunc(S));
+
+// Example ::: 02
+let newarr = [1, 2, 3, 4, 5, 7];
+
+let reduceResult = newarr.reduce((prev, next) => {
+  return (prev += next);
+});
+
+// console.log(reduceResult);
+
+// Result ::::
+// *) return function and initialial value
+// *) function have two parameter one is previous value and second is next value
+// *) it works like  a loop in array
+
+//   ::::::::::::::::  Topic Name : Promise ::::::::::::::::
+
+const prompFunc = (completed) => {
+  return new Promise(function (resolve, reject) {
+    setTimeout(() => {
+      if (completed) {
+        resolve("Done!!!!!");
+      } else {
+        reject("Hello Error");
+      }
+    }, 2000);
+  });
+};
+
+prompFunc(false)
+  .then((result) => {
+    console.log(result);
+  })
+  .catch((error) => {
+    console.log(error);
+  });

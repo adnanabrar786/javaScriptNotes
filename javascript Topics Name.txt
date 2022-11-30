@@ -86,6 +86,7 @@ vi) Type Operators (Example :typeof)
 *) constructor
 *) classes 
 *) classes with super keys
+*) Promise
 
 
 *) array..reduce() ---
