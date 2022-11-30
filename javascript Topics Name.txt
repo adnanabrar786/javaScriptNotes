@@ -10,6 +10,9 @@
 *) .then(callbackfunction)  .catch(callbackfunction)
 *) return
 *) Variables Scope
+*) try catch
+*) then catch 
+*) async await
 
 
 :::::::::::::   Theory Topics ::::::::::::::::::::::::
