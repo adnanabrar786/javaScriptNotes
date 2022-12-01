@@ -99,7 +99,7 @@ vi) Type Operators (Example :typeof)
 *) Math.sqrt ---
 *) substr() ---
 *) charAt() ---
-*) new Date()
+*) new Date() ---
 
 
 :::::::::::::   Remainin Topics ::::::::::::::::::::::::
