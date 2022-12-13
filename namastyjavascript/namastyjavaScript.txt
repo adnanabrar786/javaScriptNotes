@@ -92,7 +92,7 @@ Q) Closures ?
 *) funnction store in variable
 *) function return another function
 *) you can pass a function inside a function as a parameter 
-*) when function retuen function and store in variable but function maintain as lexical scope
+*) when function return function and store in variable but function maintain as lexical scope
 ::: Example  start :::
  function a() {
     var b = 10;

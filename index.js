@@ -295,16 +295,3 @@ const prompFunc = (completed) => {
 
 // console.log();
 
-
-dataA = "Hello A";
-daraB = "Hello B";
-
-function a() {
-  return "Hello A";
-};
-
-
-const b = () => {
-  return "Hello B";
-};
-
