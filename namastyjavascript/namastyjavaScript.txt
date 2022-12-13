@@ -39,8 +39,7 @@ video name ::::::::::::::: How functions work in JS
 
 video name ::::::::::::::: SHORTEST JS Program window & this keyword | Namaste JavaScript Ep. 5
 *) window >> window is a global object which is created along with GEC
-*) whenever you created a GEC A "this" keyword is created along with it enven for the functinal 
-   excecution context  and even for the GEC (in console)
+*) whenever you created a GEC A "this" keyword is created along with it enven for the functinal excecution context  and even for the GEC (in console)
 
 video name ::::::::::::::: undefined vs not defined in JS 🤔 | Namaste JavaScript Ep. 6
 *) javaScript is loosely type language not strick type (Example >> we cannot restrict in datatype like deciaml , boolean etc)
