@@ -76,7 +76,7 @@ Q) what is Block Scoped in JS ?
 ANS) let and const are Block Scoped in JS .
 Q) what is Block in JS ?
 ANS) Block is a space where let and const variable Exists.
-*) Block is also known as Compand Statement
+*) Block is also known as Compound Statement
 *) it is a mutiple Statement group in one statement and use it where javascript Expect One Statement in JavaScript
 *) Three Space in Memory in Spaces 
  1)Global Scope   (2)script Scope  (3)Block Scope
