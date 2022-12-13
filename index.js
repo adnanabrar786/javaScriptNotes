@@ -11,13 +11,11 @@ typeof function () {}; // Returns "function"
 typeof myCar; // Returns "undefined" *
 typeof null; // Returns "object"
 
-
 //   ::::::::::::::::  Topic Name : Array.isArray([array]) ::::::::::::::::
 
 const myFruits = ["Banana", "Orange", "Apple", "Mango"];
-let resultArr =  Array.isArray(myFruits);
+let resultArr = Array.isArray(myFruits);
 // console.log(resultArr);
-
 
 //   ::::::::::::::::  Topic Name : Array.slice ::::::::::::::::
 
@@ -281,3 +279,32 @@ const prompFunc = (completed) => {
 //   .catch((error) => {
 //     console.log(error);
 //   });
+
+// let num = 0;
+// if (nm !== 0) {
+//    num = 1;
+// } else {
+//    num = 2;
+// }
+// console.log(num === 2)
+
+// let a = 3;
+// console.log(a++);
+// console.log(a);
+// console.log(++a);
+
+// console.log();
+
+
+dataA = "Hello A";
+daraB = "Hello B";
+
+function a() {
+  return "Hello A";
+};
+
+
+const b = () => {
+  return "Hello B";
+};
+

@@ -22,7 +22,7 @@ call stack ---> GEC (Global Excecution Context)
 call stack is Known as Execution Context Stack , Program Stack , Control Stack , Runtime Stack , Machine Stack
 
 
-hoisting in function (like arrow finction and simple function)
+hoisting in function (like arrow function and simple function)
 hoisting in variable 
 defined and not defined
 demo in call stack
