@@ -1,4 +1,4 @@
- // 1) property shorthand
+ // 1) property shorthand >>>>>>>>>>>>>>>>>>>>>>>>>>
 
   // let data ="abc";
 
@@ -9,7 +9,7 @@
   // console.log(obj);
   // property shorthand end
 
-  // 2) computed poperty  names
+  // 2) computed poperty  names  >>>>>>>>>>>>>>>>>>>>>>>
   // let data ="abc";
 
   // let obj = {
@@ -20,7 +20,7 @@
   // console.log(obj);
   // computed poperty  names end
 
-  // 3)   method properties
+  // 3)   method properties >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
   //   let data ="abc";
 
   // let obj = {
@@ -39,15 +39,15 @@
 
   // destructuing
 
-  // 4) array matching
+  // 4) array matching >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
   // let arr = ["adnan" , "abrar" , 24];
   // let [name , , age] = arr;
   // console.log(name , age);
 
-  // 5) method matching
+  // 5) method matching   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-  // 5 (i)
+  // 5 (i)        >>>>>>
   // const bio = {
   //     name: "ali" ,
   //     age : 23
@@ -56,7 +56,7 @@
   // const {name , age} = bio ;
   // console.log(name);
 
-  // 5 (ii) object oy array of object
+  // 5 (ii) object oy array of object   >>>>>>>>>>>
   // const bio = [{
   //     name: "ali" ,
   //     age : 23
@@ -70,7 +70,7 @@
   // const [{name , age} , {name : name2}] = bio ;
   // console.log(name , age  , name2);
 
-  //                6) classes
+  // 6) classes      >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
   // class Shape {
   //     constructor (id, x, y) {
@@ -95,7 +95,7 @@
   // console.log(myResult);
   // console.log(myResult.move());
 
-  // 7)
+  // 7) >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
   //  let odd = [1, 3 , 5 ,7 ,9];
   //    let even = odd.map(v => v + 1)
