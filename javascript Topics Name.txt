@@ -17,6 +17,10 @@
 
 
 :::::::::::::   Theory Topics ::::::::::::::::::::::::
+*) javaScript is a interpreter language, no medium to require compile code, debug line by line, show error one by one
+*) while  compiler is, medium is require to compile code, debug whole code, show all error after compile code  
+
+
 *) primitives  
 *) Nonprimitives
 
