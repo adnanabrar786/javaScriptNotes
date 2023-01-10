@@ -20,6 +20,7 @@
 *) javaScript is a interpreter language, no medium to require compile code, debug line by line, show error one by one
 *) while  compiler is, medium is require to compile code, debug whole code, show all error after compile code  
 
+*)hoisting
 
 *) primitives  
 *) Nonprimitives
@@ -71,6 +72,9 @@ vi) Type Operators (Example :typeof)
   A common mistake is to forget the return keyword,
   in which case the function will return undefined by defaul
 
+*) hoisting
+    line by line chalta hy , phlysaray variable ko dekhta hy phr value ko dekhta hy,
+    function ko aik box ki tarah treat karta hy first attempt mai
 
 :::::::::::::   javaScript buildIn function Topics ::::::::::::::::::::::::
 *) typeOf 
