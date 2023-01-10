@@ -73,7 +73,8 @@ vi) Type Operators (Example :typeof)
   in which case the function will return undefined by defaul
 
 *) hoisting
-    line by line chalta hy , phly saray variable ko dekhta hy phr value ko dekhta hy,
+    line by line chalta hy , phly saray variable ko dekhta hy aur usko undefined rakhta hy,
+    phr value ko dekhta hy aur undefined mai value put karta hy,
     function ko aik box ki tarah treat karta hy first attempt mai
 
 :::::::::::::   javaScript buildIn function Topics ::::::::::::::::::::::::
