@@ -1,5 +1,32 @@
-//   ::::::::::::::::  Topic Name : typeof ::::::::::::::::
+//   ::::::::::::::::  Topic Name : Hoisting in JavaScript ::::::::::::::::::::::::::::::
+// CREATION phase mai function and variable k declear ko top p move karwa deya
+// jata hy us k scope k about before the code execute
+// Hoisting is not apply in arrow function
 
+//**)  function Hoisting >>>
+//*) arrow function
+// const a = (one, two) => {
+//   console.log(one + two);
+// };
+// a(12, 20);
+
+//**)  simple function
+// sum(12, 15);
+// function sum(one, two){
+//   console.log(one + two);
+// };
+
+// variable Hoisting >>>
+// console.log(b); // undefined
+// var b = 1;
+
+
+// Explanation of hoisting :::
+//     line by line chalta hy , phly saray variable ko dekhta hy aur usko undefined rakhta hy,
+//     phr value ko dekhta hy aur undefined mai value put karta hy,
+//     function ko aik box ki tarah treat karta hy first attempt mai
+
+//   ::::::::::::::::  Topic Name :typeoft :::::::::::::::::::::::::::::::::::::::::::::
 typeof "John"; // Returns "string"
 typeof 3.14; // Returns "number"
 typeof NaN; // Returns "number"
@@ -11,13 +38,13 @@ typeof function () {}; // Returns "function"
 typeof myCar; // Returns "undefined" *
 typeof null; // Returns "object"
 
-//   ::::::::::::::::  Topic Name : Array.isArray([array]) ::::::::::::::::
+//   ::::::::::::::::  Topic Name : Array.isArray([array]) ::::::::::::::::::::::::::::::::::::
 
 const myFruits = ["Banana", "Orange", "Apple", "Mango"];
 let resultArr = Array.isArray(myFruits);
 // console.log(resultArr);
 
-//   ::::::::::::::::  Topic Name : Array.slice ::::::::::::::::
+//   ::::::::::::::::  Topic Name : Array.slice :::::::::::::::::::::::::::::::::::::::::::::::
 
 const sliceArray = [1, 2, 3, 4, 5, 6, 7];
 const newArray = sliceArray.slice(1, 5);
@@ -29,7 +56,7 @@ const newArray = sliceArray.slice(1, 5);
 // Result :::
 // *) Return New Array
 
-//   ::::::::::::::::  Topic Name : Array.splice ::::::::::::::::
+//   ::::::::::::::::  Topic Name : Array.splice ::::::::::::::::::::::::::::::::::::::::::::::
 
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
 //  At position 2, remove 0 , add 2 elements:
@@ -40,7 +67,7 @@ fruits.splice(3, 0, "Lemon", "Kiwi");
 // Result :::
 // *) add value in Array
 
-//   ::::::::::::::::  Topic Name : array.map() ::::::::::::::::
+//   ::::::::::::::::  Topic Name : array.map() :::::::::::::::::::::::::::::::::::::::::::::::
 const array = [1, 6, 9, 16];
 
 // pass a function to map
@@ -53,7 +80,7 @@ const map = array.map((x) => x * 2);
 // array.map is  like a loop
 // *) Return New Array
 
-//   ::::::::::::::::  Topic Name : array.filter ::::::::::::::::
+//   ::::::::::::::::  Topic Name : array.filter :::::::::::::::::::::::::::::::::::::::::::::::::
 const words = [
   "spray",
   "limit",
@@ -70,7 +97,7 @@ const resultfilter = words.filter((word) => word.length < 6);
 // Result :::
 // *) Return New Array
 
-//   ::::::::::::::::  Topic Name : array.find ::::::::::::::::
+//   ::::::::::::::::  Topic Name : array.find ::::::::::::::::::::::::::::::::::::::::::::::
 
 //  :::::  Example 1 :::::::::::
 // const array1 = [5, 9, 8, 130, 44];
@@ -105,7 +132,7 @@ const resultthird = inventory.find((fruit) => {
 // *) Return a specific value
 // *) not return array
 
-//   ::::::::::::::::  Topic Name : array.join ::::::::::::::::
+//   ::::::::::::::::  Topic Name : array.join ::::::::::::::::::::::::::::::::::::::::::::::
 
 // const str = "this is a test string";
 const arrayJoin = [
@@ -127,7 +154,7 @@ const arrayJoin = [
 // *) it convert array into string
 // *) not apply in sting
 
-//   ::::::::::::::::  Topic Name : array.reverse ::::::::::::::::
+//   ::::::::::::::::  Topic Name : array.reverse :::::::::::::::::::::::::::::::::::::::::::::
 var myArrReverse = [34, 234, 567, 4];
 var reverseArr = myArrReverse.reverse();
 // console.log(reverseArr);
@@ -137,7 +164,7 @@ var reverseArr = myArrReverse.reverse();
 // *) apply in array
 // *) not apply in string
 
-//   ::::::::::::::::  Topic Name : str.split ::::::::::::::::
+//   ::::::::::::::::  Topic Name : str.split ::::::::::::::::::::::::::::::::::::::::::
 const strSplit = "adnan is best";
 const arr = strSplit.split(" ");
 // console.log(arr);
@@ -161,14 +188,14 @@ const resultReverse = resultSplit.reverse();
 const resultJoin = resultReverse.join("");
 // console.log(resultJoin);
 
-//   ::::::::::::::::  Topic Name : Math.ceil and  Math.floor ::::::::::::::::
+//   ::::::::::::::::  Topic Name : Math.ceil and  Math.floor ::::::::::::::::::::::::::::::::::::
 let myNumber = 22.22;
 let resultCeil = Math.ceil(myNumber);
 let resultFloor = Math.floor(myNumber);
 // console.log(resultCeil);
 // console.log(resultFloor);
 
-//   ::::::::::::::::  Topic Name : constructor ::::::::::::::::
+//   ::::::::::::::::  Topic Name : constructor ::::::::::::::::::::::::::::::::::::::::::::::::::
 function MyConstructor(name, age, myClass, subject) {
   this.name = name;
   this.age = age;
@@ -184,7 +211,7 @@ const resultMyConstructor = new MyConstructor("adnan", 25, "Graduation", "Cs");
 // *) first alphabet in Construction function is Capital
 // *) it gives object
 
-//   ::::::::::::::::  Topic Name : classes ::::::::::::::::
+//   ::::::::::::::::  Topic Name : classes ::::::::::::::::::::::::::::::::::::::::::::::::::
 class classMates {
   constructor(firstName, lastName, semester) {
     this.firstName = firstName;
@@ -201,7 +228,7 @@ let resultClassMates = new classMates("ali", "ahmed", 2);
 // *) it start with class
 // *) it gives object
 
-//   ::::::::::::::::  Topic Name : classes with super keys ::::::::::::::::
+//   ::::::::::::::::  Topic Name : classes with super keys :::::::::::::::::::::::::::::::::
 
 class Parentclass {
   Parentclass;
@@ -226,7 +253,7 @@ class Chilclass extends Parentclass {
 // Result :::
 // *) super keyword define in child class and fetch value in parent class
 
-//   ::::::::::::::::  Topic Name : array..reduce() ::::::::::::::::
+//   ::::::::::::::::  Topic Name : array..reduce() :::::::::::::::::::::::::::::::::::::::::::
 
 // Example ::: 01
 const S = "PeteR";
@@ -258,7 +285,7 @@ let reduceResult = newarr.reduce((prev, next) => {
 // *) function have two parameter one is previous value and second is next value
 // *) it works like  a loop in array
 
-//   ::::::::::::::::  Topic Name : Promise ::::::::::::::::
+//   ::::::::::::::::  Topic Name : Promise ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 const prompFunc = (completed) => {
   return new Promise(function (resolve, reject) {
@@ -294,4 +321,3 @@ const prompFunc = (completed) => {
 // console.log(++a);
 
 // console.log();
-
