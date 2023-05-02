@@ -7,6 +7,7 @@ but what is ajax it cover later
 Global Exceution Context :
 1) Memory 
 2) Code
+Global Exceution Context where javaScript run 
 
      
 function invoke   ----->  fn(n)

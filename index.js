@@ -1,3 +1,22 @@
+//>>>>>>>>>>>>>>>>>>>>>>>>>> Topic Name >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+// Hoisting in JavaScript
+// typeoof
+// array.filter 
+// Array.splice
+// array.map()
+// array.find
+// array.join 
+// array.reverse 
+// str.split 
+// array.join, array.reverse, str.split
+// Math.ceil and  Math.floor
+// constructor
+// classes
+// classes with super keys
+// array..reduce() 
+// Promise
+// this in arrow function and simple function
+
 //   ::::::::::::::::  Topic Name : Hoisting in JavaScript ::::::::::::::::::::::::::::::
 // CREATION phase mai function and variable k declear ko top p move karwa deya
 // jata hy us k scope k about before the code execute
@@ -20,13 +39,12 @@
 // console.log(b); // undefined
 // var b = 1;
 
-
 // Explanation of hoisting :::
 //     line by line chalta hy , phly saray variable ko dekhta hy aur usko undefined rakhta hy,
 //     phr value ko dekhta hy aur undefined mai value put karta hy,
 //     function ko aik box ki tarah treat karta hy first attempt mai
 
-//   ::::::::::::::::  Topic Name :typeoft :::::::::::::::::::::::::::::::::::::::::::::
+//   ::::::::::::::::  Topic Name :typeoof :::::::::::::::::::::::::::::::::::::::::::::
 typeof "John"; // Returns "string"
 typeof 3.14; // Returns "number"
 typeof NaN; // Returns "number"
@@ -81,6 +99,8 @@ const map = array.map((x) => x * 2);
 // *) Return New Array
 
 //   ::::::::::::::::  Topic Name : array.filter :::::::::::::::::::::::::::::::::::::::::::::::::
+
+
 const words = [
   "spray",
   "limit",
@@ -98,6 +118,8 @@ const resultfilter = words.filter((word) => word.length < 6);
 // *) Return New Array
 
 //   ::::::::::::::::  Topic Name : array.find ::::::::::::::::::::::::::::::::::::::::::::::
+
+
 
 //  :::::  Example 1 :::::::::::
 // const array1 = [5, 9, 8, 130, 44];
@@ -134,6 +156,8 @@ const resultthird = inventory.find((fruit) => {
 
 //   ::::::::::::::::  Topic Name : array.join ::::::::::::::::::::::::::::::::::::::::::::::
 
+
+
 // const str = "this is a test string";
 const arrayJoin = [
   "spray",
@@ -155,6 +179,7 @@ const arrayJoin = [
 // *) not apply in sting
 
 //   ::::::::::::::::  Topic Name : array.reverse :::::::::::::::::::::::::::::::::::::::::::::
+
 var myArrReverse = [34, 234, 567, 4];
 var reverseArr = myArrReverse.reverse();
 // console.log(reverseArr);
@@ -165,6 +190,7 @@ var reverseArr = myArrReverse.reverse();
 // *) not apply in string
 
 //   ::::::::::::::::  Topic Name : str.split ::::::::::::::::::::::::::::::::::::::::::
+
 const strSplit = "adnan is best";
 const arr = strSplit.split(" ");
 // console.log(arr);
@@ -189,13 +215,16 @@ const resultJoin = resultReverse.join("");
 // console.log(resultJoin);
 
 //   ::::::::::::::::  Topic Name : Math.ceil and  Math.floor ::::::::::::::::::::::::::::::::::::
+
+
 let myNumber = 22.22;
 let resultCeil = Math.ceil(myNumber);
 let resultFloor = Math.floor(myNumber);
 // console.log(resultCeil);
 // console.log(resultFloor);
 
-//   ::::::::::::::::  Topic Name : constructor ::::::::::::::::::::::::::::::::::::::::::::::::::
+//   ::::::::::::::::  Topic Name : Constructor ::::::::::::::::::::::::::::::::::::::::::::::::::
+
 function MyConstructor(name, age, myClass, subject) {
   this.name = name;
   this.age = age;
@@ -212,6 +241,7 @@ const resultMyConstructor = new MyConstructor("adnan", 25, "Graduation", "Cs");
 // *) it gives object
 
 //   ::::::::::::::::  Topic Name : classes ::::::::::::::::::::::::::::::::::::::::::::::::::
+
 class classMates {
   constructor(firstName, lastName, semester) {
     this.firstName = firstName;
@@ -321,3 +351,28 @@ const prompFunc = (completed) => {
 // console.log(++a);
 
 // console.log();
+
+//   ::::::::::  Topic Name :this in arrow function and simple function :::::::::::::::::::::::::::::::::::::::::::::
+
+// const person = {
+//   test() {
+//     setTimeout(() => {
+//       console.log(this);
+//     }, 2000);
+
+//     setTimeout(function () {
+//       console.log(this);
+//     }, 2000);
+//   },
+// };
+
+// person.test();
+
+
+// Explation >>>>
+// means simple function global ko follow karta hy jb k arrow function parent ko follow karta hy
+
+// Answer >>>
+// undefined
+// {test: ƒ}test: test() {     setTimeout(() => {…}[[Prototype]]: Object
+//  Window {0: Window, window: Window, self: Window, document: document, name: '', location: Location, …}
