@@ -1,21 +1,23 @@
 //>>>>>>>>>>>>>>>>>>>>>>>>>> Topic Name >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 // Hoisting in JavaScript
 // typeoof
-// array.filter 
+// array.filter
 // Array.splice
 // array.map()
 // array.find
-// array.join 
-// array.reverse 
-// str.split 
+// array.join
+// array.reverse
+// str.split
 // array.join, array.reverse, str.split
 // Math.ceil and  Math.floor
 // constructor
 // classes
 // classes with super keys
-// array..reduce() 
+// array..reduce()
 // Promise
 // this in arrow function and simple function
+// Object.values(obj)
+// array.flat()
 
 //   ::::::::::::::::  Topic Name : Hoisting in JavaScript ::::::::::::::::::::::::::::::
 // CREATION phase mai function and variable k declear ko top p move karwa deya
@@ -100,7 +102,6 @@ const map = array.map((x) => x * 2);
 
 //   ::::::::::::::::  Topic Name : array.filter :::::::::::::::::::::::::::::::::::::::::::::::::
 
-
 const words = [
   "spray",
   "limit",
@@ -118,8 +119,6 @@ const resultfilter = words.filter((word) => word.length < 6);
 // *) Return New Array
 
 //   ::::::::::::::::  Topic Name : array.find ::::::::::::::::::::::::::::::::::::::::::::::
-
-
 
 //  :::::  Example 1 :::::::::::
 // const array1 = [5, 9, 8, 130, 44];
@@ -155,8 +154,6 @@ const resultthird = inventory.find((fruit) => {
 // *) not return array
 
 //   ::::::::::::::::  Topic Name : array.join ::::::::::::::::::::::::::::::::::::::::::::::
-
-
 
 // const str = "this is a test string";
 const arrayJoin = [
@@ -215,7 +212,6 @@ const resultJoin = resultReverse.join("");
 // console.log(resultJoin);
 
 //   ::::::::::::::::  Topic Name : Math.ceil and  Math.floor ::::::::::::::::::::::::::::::::::::
-
 
 let myNumber = 22.22;
 let resultCeil = Math.ceil(myNumber);
@@ -368,7 +364,6 @@ const prompFunc = (completed) => {
 
 // person.test();
 
-
 // Explation >>>>
 // means simple function global ko follow karta hy jb k arrow function parent ko follow karta hy
 
@@ -376,3 +371,25 @@ const prompFunc = (completed) => {
 // undefined
 // {test: ƒ}test: test() {     setTimeout(() => {…}[[Prototype]]: Object
 //  Window {0: Window, window: Window, self: Window, document: document, name: '', location: Location, …}
+
+//   ::::::::::  Topic Name :Object.values(obj) :::::::::::::::::::::::::::::::::::::::::::::
+const objectObject = {
+  a: "somestring",
+  b: 42,
+  c: false,
+};
+
+// console.log(Object.values(objectObject));
+// Expected output: Array ["somestring", 42, false]
+
+// Result >>>
+// Object ki sari key ki value ak aik object ban jaey ga
+
+//   ::::::::::  Topic Name :array.flat() :::::::::::::::::::::::::::::::::::::::::::::
+
+const arrayFlat = [[1, 2, 3]];
+// console.log(arrayFlat.flat());
+
+// Result >>>
+// The flat() method creates a new array with all sub-array elements concatenated
+// into it recursively up to the specified depth.
