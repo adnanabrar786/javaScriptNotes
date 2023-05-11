@@ -91,6 +91,22 @@ vi) Type Operators (Example :typeof)
 *) classes with super keys
 *) array..reduce()
 *) Promise
+*) this in arrow function and simple function
+*) Object.values(obj)
+*) array.flat()
+*) forEach
+*) .forEach(), .map(), .filter() .... What's the difference?
+
+
+
+
+
+:::::::::::::   Remainin Topics ::::::::::::::::::::::::
+Iterators  , Currying , momoize  ---
+pass by reference
+pass by value
+pointer in javaScript
+query selector
 
 
 *) array.some() ---
@@ -104,14 +120,6 @@ vi) Type Operators (Example :typeof)
 *) substr() ---
 *) charAt() ---
 *) new Date() ---
-
-
-:::::::::::::   Remainin Topics ::::::::::::::::::::::::
-Iterators  , Currying , momoize  ---
-pass by reference
-pass by value
-pointer in javaScript
-query selector
 
 
 
