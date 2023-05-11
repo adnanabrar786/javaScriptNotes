@@ -18,6 +18,14 @@
 // this in arrow function and simple function
 // Object.values(obj)
 // array.flat()
+// forEach
+// .forEach(), .map(), .filter() .... What's the difference?
+
+
+
+
+
+
 
 //   ::::::::::::::::  Topic Name : Hoisting in JavaScript ::::::::::::::::::::::::::::::
 // CREATION phase mai function and variable k declear ko top p move karwa deya
@@ -393,3 +401,16 @@ const arrayFlat = [[1, 2, 3]];
 // Result >>>
 // The flat() method creates a new array with all sub-array elements concatenated
 // into it recursively up to the specified depth.
+
+//   ::::::::::  Topic Name : forEach() :::::::::::::::::::::::::::::::::::::::::::::
+
+const foreachfruits = ["apple", "orange", "cherry"];
+
+// foreachfruits.forEach((name) => {
+//   console.log(`I Eat ${name}`);
+// });
+
+
+// Result >>>
+// .forEach(), is used to execute the same code on every element in an array 
+// but does not change the array and it returns undefined.
