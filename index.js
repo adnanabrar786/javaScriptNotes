@@ -398,7 +398,7 @@ const objectObject = {
 const arrayFlat = [[1, 2, 3]];
 // console.log(arrayFlat.flat());
 
-// Result >>>
+// Result >>> [1, 2, 3]
 // The flat() method creates a new array with all sub-array elements concatenated
 // into it recursively up to the specified depth.
 
