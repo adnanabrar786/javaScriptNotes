@@ -96,6 +96,7 @@ vi) Type Operators (Example :typeof)
 *) array.flat()
 *) forEach
 *) .forEach(), .map(), .filter() .... What's the difference?
+*) difference between arrow function and noraml function
 
 
 

@@ -20,11 +20,7 @@
 // array.flat()
 // forEach
 // .forEach(), .map(), .filter() .... What's the difference?
-
-
-
-
-
+// difference between arrow function and noraml function
 
 
 //   ::::::::::::::::  Topic Name : Hoisting in JavaScript ::::::::::::::::::::::::::::::
@@ -414,3 +410,12 @@ const foreachfruits = ["apple", "orange", "cherry"];
 // Result >>>
 // .forEach(), is used to execute the same code on every element in an array 
 // but does not change the array and it returns undefined.
+
+
+//   ::::::::::  Topic Name : difference between arrow function and noraml function :::::::::::::::::::::::::::::::::::::::::::::
+// https://www.youtube.com/watch?v=Wdlu_wlj6as
+
+// 1) Arguments
+// 2) Constructor 
+// 3) this 
+// 4) one line code work const fun = () => 100;
