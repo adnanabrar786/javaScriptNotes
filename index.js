@@ -50,6 +50,11 @@
 //     phr value ko dekhta hy aur undefined mai value put karta hy,
 //     function ko aik box ki tarah treat karta hy first attempt mai
 
+// Simple Explanation of hoisting :::
+// hoisting mai function and variable joi decalear hy uper lay ata hy 
+// var p and normal function hoisting apply hoti hy 
+// let and const and arraow function p hoisting apply nahi hoti
+
 //   ::::::::::::::::  Topic Name :typeoof :::::::::::::::::::::::::::::::::::::::::::::
 typeof "John"; // Returns "string"
 typeof 3.14; // Returns "number"
